@@ -18,10 +18,15 @@ git clone https://github.com/SatriaNata/fleet_management.git
 git pull origin main
 ```
 
+## **Move into folder**
+```bash
+cd fleet_management
+```
+
 ## **Initialization**
 ```bash
 # create .env file base on example file
-cp .env.example .env.js
+cp .env.example .env
 ```
 
 ## **Run with Docker**
