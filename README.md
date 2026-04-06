@@ -41,6 +41,12 @@ RabbitMQ dashboard -> http:/localhost:15672
 - username: guest
 - password: guest
 
+## **Run MQTT vehicle publisher**
+ Run for send vehicle simulation cordinate every 2 seconds
+```bash
+    go run cmd/publisher/main.go
+```
+
 ## **Run Locally (Optional)**
 1. setup dependencies
     - Postgresql, 
@@ -55,15 +61,7 @@ RabbitMQ dashboard -> http:/localhost:15672
     go run cmd/api/main.go
 ```
 
-## **Run MQTT vehicle publisher**
- Run for send vehicle simulation cordinate every 2 seconds
-```bash
-    go run cmd/publisher/main.go
-```
-
-
 list End point 
-
 Test connection
 - GET "/test
 Get vehicle location using vehicle_id
