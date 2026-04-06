@@ -43,6 +43,7 @@ RabbitMQ dashboard -> http:/localhost:15672
 
 ## **Run MQTT vehicle publisher**
  Run for send vehicle simulation cordinate every 2 seconds
+ Open new terminal for run this command promt
 ```bash
     go run cmd/publisher/main.go
 ```
